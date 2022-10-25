@@ -1,0 +1,27 @@
+.topbanner_wrap {
+  background-image: url(../../assets/images/banner.png);
+  min-height: 25vh;
+  padding-top: 10vh !important;
+}
+
+.topbanner_wrap h1 {
+  font-size: 24px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.topbanner_wrap span {
+  color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  .topbanner_wrap {
+    background-image: url(../../assets/images/banner.png);
+    min-height: 20vh !important;
+    padding-top: 5vh !important;
+  }
+  .topbanner_wrap h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+}

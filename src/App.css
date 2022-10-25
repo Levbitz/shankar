@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden !important;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  overflow-y: hidden !important; /* Hide vertical scrollbar */
+  overflow-x: hidden !important; /* Hide horizontal scrollbar */
+}
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  text-transform: capitalize;
+}
+ul {
+  list-style-type: none;
+}
+button {
+  border-radius: 5px;
+  padding: 17px 30px;
+  background: #27ae60;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+button i {
+  margin-right: 5px;
+}
+.heading {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+.heading h1 {
+  color: #2d3954;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 35px;
+}
+.heading p {
+  color: #72809d;
+}
+textarea,
+input {
+  border: none;
+  outline: none;
+  background: none;
+}
+.background {
+  padding: 80px 0;
+  position: relative;
+  background: #f7f9fc;
+}
+
+.grid5 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 30px;
+}
+label {
+  color: #2d3954;
+  font-size: 14px;
+}
+.mtop {
+  margin-top: 50px;
+}
+h4 {
+  font-weight: 500;
+  margin-top: 10px;
+}
+.shadow {
+  box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
+}
+.padding {
+  padding: 80px 0;
+}
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.btn2 {
+  border-radius: 50px;
+  font-size: 20px;
+}
+.grid4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+.btn3 {
+  background: #ff6922;
+  border-radius: 50px;
+}
+.btn4 {
+  background-color: #000;
+  color: #fff;
+}
+.btn5 {
+  border-radius: 50px;
+  padding: 20px 40px;
+  color: #27ae60;
+  font-size: 20px;
+  font-weight: 400;
+  border: 5px solid #27ae601f;
+  background: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  .btn5 {
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: #27ae60;
+    font-size: 10px;
+    font-weight: 400;
+    border: 5px solid #27ae601f;
+    background: #fff;
+    margin: 20px auto;
+  }
+}
+
+.back {
+  height: 40vh;
+  position: relative;
+}
+.back img {
+  height: 40vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  object-fit: cover;
+}
+.back::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40vh;
+  background: rgba(17, 40, 72, 0.629);
+  z-index: -1;
+}
+.back .container {
+  color: #fff;
+  padding: 120px 0;
+}
+.back h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+.mb {
+  margin-bottom: 80px;
+}
+@media screen and (max-width: 800px) {
+  .grid4,
+  .grid3,
+  .grid5 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .heading {
+    width: 100%;
+  }
+  .container {
+    max-width: 90%;
+  }
+  .back::after,
+  .back img,
+  .back {
+    height: 30vh;
+  }
+}
+
+.input-field.input-outlined > textarea {
+  border: 1px solid #ced4da !important;
+  /* padding: 12px 16px 14px; */
+  /* width: calc(100% - 2.5rem); */
+  float: none;
+  display: block;
+  border-radius: 4px;
+  transition: box-shadow, border-color 0.15s;
+  margin-top: -20px;
+  height: 42px;
+  background-color: #fff;
+}
+.input-field.input-outlined > input {
+  border: 1px solid #ced4da !important;
+  /* padding: 12px 16px 14px; */
+  /* width: calc(100% - 2.5rem); */
+  float: none;
+  display: block;
+  border-radius: 4px;
+  transition: box-shadow, border-color 0.15s;
+  margin-top: -20px;
+  height: 42px;
+  background-color: #fff;
+}
+.input-field.input-outlined > input:focus:not([readonly]) {
+  border-color: #26a69b;
+  box-shadow: 0 1px 0 0px #26a69b;
+}
+.input-field.input-outlined > label {
+  left: 27px;
+  display: inline-flex;
+  width: auto !important;
+}
+.input-field.input-outlined > label.active {
+  background: white;
+  border-left: 4px solid white;
+  border-right: 4px solid white;
+  transform: translateY(-1.75rem);
+  top: 1rem;
+}
+
+.fabian_multiple_select {
+  border: 1px solid #ced4da;
+  padding-right: 10px;
+  height: 48px;
+  border-radius: 5px;
+  margin-top: -8px;
+}
+
+@media only screen and (max-width: 600px) {
+  .levbitz_mobo_btn {
+    margin-top: 40px !important;
+  }
+}

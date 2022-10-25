@@ -1,0 +1,19 @@
+.single_service_wrap {
+  margin-bottom: 20px;
+  padding: 10px;
+  height: 250px;
+  background-color: azure;
+  border-radius: 5px;
+}
+
+.single_service_wrap:hover {
+  background-color: aqua;
+}
+
+.single_service_wrap img {
+  width: 80px;
+}
+
+.single_service_wrap h5 {
+  font-size: 19px;
+}

@@ -1,0 +1,19 @@
+.single_contact_wrap {
+  margin-bottom: 20px;
+  padding: 10px;
+  height: 250px;
+  background-color: azure;
+  border-radius: 5px;
+}
+
+.single_contact_wrap:hover {
+  background-color: aqua;
+}
+
+.single_contact_wrap img {
+  width: 80px;
+}
+
+.single_contact_wrap h5 {
+  font-size: 19px;
+}

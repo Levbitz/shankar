@@ -1,0 +1,14 @@
+.heading h1 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.heading p {
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .heading h1 {
+    font-size: 26px !important;
+  }
+}

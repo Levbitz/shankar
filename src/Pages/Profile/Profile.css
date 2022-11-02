@@ -1,0 +1,11 @@
+.profileWrap {
+  /* background: crimson; */
+  padding-top: 15vh;
+}
+
+.profileWrap h4 {
+  font-size: 23px;
+  color: #fff;
+  margin: 0px;
+  padding: 0px;
+}

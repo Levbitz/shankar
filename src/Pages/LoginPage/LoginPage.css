@@ -1,0 +1,42 @@
+.loginPage_wrap {
+  padding-top: 10vh;
+
+  background-color: #eeeeee;
+  min-height: 100vh;
+}
+.loginPage_wrap h4 {
+  font-size: 1.8rem;
+  font-weight: 500 !important;
+  margin-bottom: 80px;
+}
+.input-field.input-outlined > input {
+  /* border: 2px solid red; */
+  /* padding: 12px 16px 14px; */
+  /* width: calc(100% - 2.5rem); */
+  float: none;
+  display: block;
+  border-radius: 4px;
+  transition: box-shadow, border-color 0.15s;
+  margin-top: -20px;
+}
+.input-field.input-outlined > input:focus:not([readonly]) {
+  border-color: #26a69b;
+  box-shadow: 0 1px 0 0px #26a69b;
+}
+.input-field.input-outlined > label {
+  left: 27px;
+  display: inline-flex;
+  width: auto !important;
+}
+.input-field.input-outlined > label.active {
+  background: white;
+  border-left: 4px solid white;
+  border-right: 4px solid white;
+  transform: translateY(-1.75rem);
+  top: 1rem;
+}
+
+.loginForm_wrap {
+  padding: 30px 25px;
+  border-radius: 10px;
+}

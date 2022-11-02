@@ -31,7 +31,10 @@ const Footer = () => {
           <div className="row">
             <div className="col l6 s12">
               <div className="logo">
-                <img src={Logo} alt="" />
+                <Link to="/">
+                  <img src={Logo} alt="" />
+                </Link>
+
                 <h6>Do You Need Help With Anything?</h6>
                 <p>
                   Receive updates, hot deals, tutorials, discounts sent straignt
@@ -60,7 +63,7 @@ const Footer = () => {
                 <h6>COMPANY</h6>
                 <ul>
                   <li>info@shankarrealestate.com</li>
-                  <li>+91 99010 55002</li>
+                  <li>+919845169306</li>
                   <li>
                     #21, 50ft. Main Road , NGEF Layout, Sanjay Nagar, Bengaluru-
                     560094

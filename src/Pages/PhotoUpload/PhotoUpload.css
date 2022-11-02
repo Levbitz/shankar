@@ -1,0 +1,26 @@
+.alert-modal {
+  background-color: #fff;
+}
+
+.alert-modal p {
+  font-size: 12px !important;
+}
+
+@media screen and (min-width: 600px) {
+  .alert-modal {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+
+.myAlertWrap {
+  position: fixed;
+  top: 0;
+  /* padding-top: 10vh; */
+  z-index: 9999;
+
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: "3vh";
+}

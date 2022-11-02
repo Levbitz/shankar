@@ -1,12 +1,13 @@
 import React, { useEffect } from "react";
 import Back from "../../components/Back/Back";
-import Heading from "../../components/common/Heading/Heading";
+
 import AbtImg from "../../assets/images/abt.jpg";
 import AbtImg1 from "../../assets/images/abt1.jpeg";
 import AbtImg2 from "../../assets/images/abt2.jpeg";
 import "./about.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Navbar from "../../components/Navbar/Navbar";
 
 const AboutPage = () => {
   useEffect(() => {
@@ -14,6 +15,7 @@ const AboutPage = () => {
   }, []);
   return (
     <>
+      <Navbar />
       <section className="about">
         <Back name="About Us" title="About Us - Who We Are?" />
 
